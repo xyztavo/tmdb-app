@@ -15,21 +15,24 @@
 
 <body>
     <h1>The Movie Database</h1>
-    <input type="text" class='input' id="search-input" placeholder="search your movies here!">
-    <button id="search" class="button" onclick="searchFunction()">search it!</button>
-    <div id="search-div">
-    
+    <div>
+        <input type="text" class='input' id="search-input" placeholder="search your movies here!">
+        <button id="search" class="button" onclick="searchFunction()">search it!</button>
+        <div id="search-div" class="group">
+        </div>
+
         <div id="pages-left-search">
         </div>
         <button id="search-more" class="button">load more</button>
+    </Div>
 
-    </div>
     <h1 id="top-rated-heading">Top Rated Movies:</h1>
+    <div id="top-rated-div" class="group">
 
-    <div id="div1">
-        <button id="load-more-button" onclick="loadMore()">load more</button>
-        <div id="pages-left-top-rated"></div>
     </div>
+    <button id="load-more-button" onclick="loadMore()">load more</button>
+    <div id="pages-left-top-rated"></div>
+
     <script src="script.js"></script>
 </body>
 

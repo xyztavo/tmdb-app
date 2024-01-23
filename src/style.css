@@ -1,8 +1,10 @@
 * {
-  background-color: black;
-  color: white;
   font-family: "Roboto Mono", monospace;
   font-weight: 300;
+}
+body, input, button {
+  background-color: black;
+  color: white;
 }
 h1 {
     font-weight: 600;
@@ -10,10 +12,25 @@ h1 {
 .input {
   width: 15rem;
 }
-div {
+img {
+  border-radius: 3rem;
+  width: 13rem;
+}
+.group {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  overflow: auto;
+  justify-content: center;
+}
+.movie {
+  display: flex;
+  flex-direction: column;
+  width: 14rem;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(32, 32, 32, 0.507);
-  display: block;
-  padding: .5rem;
-  margin: .5rem;
+  padding: 10px;
+  margin: 1rem;
   border-radius: 1rem;
 }
