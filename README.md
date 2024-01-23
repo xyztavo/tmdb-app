@@ -33,12 +33,12 @@ This project was developed using the following technologies:
 <h3 align="center"> Clone this rep :</h3>
 
 ```
-git clone 
+git clone https://github.com/gustafer/tmdb-app.git
 ```
 <h3 align="center">  Open its folder :</h3>
 
 ```
-cd 
+cd tmdb-app
 ```
 ### then, go see the usage to get and implement your api key!
 
