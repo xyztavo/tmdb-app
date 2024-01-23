@@ -2,7 +2,7 @@ const options = {
     method: 'GET',
     headers: {
         accept: 'application/json',
-        Authorization: 'Bearer CHANGE BEARER HERE'
+        Authorization: 'Bearer YOUR BEARER HERE!'
     }
 };
 
@@ -12,7 +12,6 @@ let countMovies = 0;
 let pagenumber = 1;
 
 function createDiv(count, elementTitle, elementImage, elementVoteAverage, insertBeforeID) {
-
     const div = document.createElement('div');
     div.className = 'movie';
     div.innerHTML = `
@@ -81,7 +80,6 @@ function searchFunction() {
     fetch(searchUrl, options)
         .then(response => response.json())
         .then(topdata => {
-            const topRatedHeading = document.getElementById("search-div");
             searchMoreButton = document.getElementById('search-more')
 
 
@@ -105,12 +103,14 @@ function searchFunction() {
 
 
             } else {
+                pagesLeftVisor.innerHTML = 'theres no pages left!'
                 searchMoreButton.onclick = () => {
                     alert('Nothing to load more!')
                 }
             }
 
             if (topdata.results.length > 0) {
+                document.getElementById("search-div").innerHTML = ''
                 topdata.results.forEach(element => {
                     countSearchedMovies++;
                     createDiv(countSearchedMovies, element.title, element.poster_path, element.vote_average, "search-div")
