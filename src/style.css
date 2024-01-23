@@ -1,0 +1,19 @@
+* {
+  background-color: black;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+}
+h1 {
+    font-weight: 600;
+}
+.input {
+  width: 15rem;
+}
+div {
+  background-color: rgba(32, 32, 32, 0.507);
+  display: block;
+  padding: .5rem;
+  margin: .5rem;
+  border-radius: 1rem;
+}

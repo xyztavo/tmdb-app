@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Movie Database</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Roboto+Mono:wght@100;300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>The Movie Database</h1>
+    <input type="text" class='input' id="search-input" placeholder="search your movies here!">
+    <button id="search" class="button" onclick="searchFunction()">search it!</button>
+    <div id="search-div">
+    
+        <div id="pages-left-search">
+        </div>
+        <button id="search-more" class="button">load more</button>
+
+    </div>
+    <h1 id="top-rated-heading">Top Rated Movies:</h1>
+
+    <div id="div1">
+        <button id="load-more-button" onclick="loadMore()">load more</button>
+        <div id="pages-left-top-rated"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
