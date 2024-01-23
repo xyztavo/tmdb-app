@@ -26,7 +26,7 @@ This project was developed using the following technologies:
 
 ## 💻 Project
 
-### [See how it actually is live]()
+### [See how it actually is live](https://ustav-tmdb.vercel.app/)
 
 ## 💾 Installation
 
