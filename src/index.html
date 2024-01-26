@@ -14,26 +14,37 @@
 </head>
 
 <body>
-    <h1>The Movie Database</h1>
-    <div>
-        <input type="text" class='input' id="search-input" placeholder="search your movies here!">
-        <button id="search" class="button" onclick="searchFunction()">search it!</button>
-        <div id="search-div" class="group">
-        </div>
-
-        <div id="pages-left-search">
-        </div>
-        <button id="search-more" class="button">load more</button>
-    </Div>
-
-    <h1 id="top-rated-heading">Top Rated Movies:</h1>
-    <div id="top-rated-div" class="group">
-
+    <nav class="navbar">
+        <h1 class="title"><ion-icon class="icon-logo" name="videocam-outline"></ion-icon>The Movie Database</h1>
+        <span class="input-button">
+            <input type="text" class='input' id="search-input" placeholder="search your movies here!">
+            <button id="search" class="search-button" type="submit" onclick=""><ion-icon class="icon"
+                    name="search-outline"></ion-icon></button>
+        </span>
+    </nav>
+    
+    <!-- this shows the results of search: -->
+    <div id="search-div" class="group">
     </div>
-    <button id="load-more-button" onclick="loadMore()">load more</button>
-    <div id="pages-left-top-rated"></div>
+
+
+    <button id="search-more" class="load-more-button">load more </button>
+    <div id="pages-left-search" class="center">
+    </div>
+
+    <h1 id="top-rated-heading" class="center">Top Rated Movies:</h1>
+
+    <!-- this shows the results of top rated: -->
+    <div id="top-rated-div" class="group">
+    </div>
+
+
+    <button id="load-more-button" class="load-more-button" onclick="loadMore()">load more</button>
+    <div id="pages-left-top-rated" class="center"></div>
 
     <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
