@@ -1,7 +1,7 @@
 <h1 align="center"> TMDB App </h1>
 
 <p align="center">
-  <img alt="" src="./src/assets/banner-readme.png">
+  <img alt="" src="https://github.com/gustafer/tmdb-app/blob/main/src/assets/banner-readme.png?raw=true">
 </p>
 
 <p align="center"> This is a simple project i made using <a href="https://developer.themoviedb.org/docs/getting-started" target="_blank" >TMDB.</a>  <br/>
