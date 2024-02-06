@@ -56,4 +56,4 @@ const options = {
 ```
 ### now, feel free to implement your desired functionalities!
 ## 📖 License
-### This project uses the [MIT License](/MIT-LICENSE.txt).
+### This project uses the [MIT License](https://github.com/gustafer/tmdb-app/blob/main/LICENSE.txt).
